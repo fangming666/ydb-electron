@@ -1,0 +1,85 @@
+.analysis-setting-item {
+  width: 94vw;
+  background: #FFFFFF;
+  box-shadow: 0 0 11px 0 rgba(136, 165, 190, 0.28);
+  margin: 12px auto 0;
+  padding-left: 94px;
+  padding-top: 40px;
+
+  .form-block {
+    margin-bottom: 21px;
+
+    .custom-checkbox-none {
+      padding-left: 0;
+    }
+
+    input.form-control {
+      width: 97px;
+      font-size: 20px;
+      color: #55595C;
+      height: 44px;
+      margin-left: 9px;
+      margin-right: 9px;
+    }
+
+    .custom-control-description {
+      font-size: 20px;
+    }
+
+    .custom-control-indicator {
+      top: .65rem;
+    }
+
+    &.form-block-other {
+      .custom-control-indicator {
+        top: 1rem;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 33px;
+      }
+    }
+  }
+
+  & > .custom-radio {
+    font-size: 20px;
+    color: #3A3A3A;
+    margin-right: 94px;
+    padding-bottom: 39px;
+    margin-bottom: 0;
+
+    .custom-control-indicator {
+      top: .65rem;
+    }
+  }
+
+  &:nth-child(3) {
+    .custom-control {
+      margin-right: 99px;
+    }
+  }
+}
+
+.analysis-setting-title {
+  font-size: 28.11px;
+  color: #3A3A3A;
+  position: relative;
+  margin-bottom: 30px;
+
+  &::after {
+    background: #54BA62;
+    position: absolute;
+    left: -26px;
+    top: 5px;
+    width: 7px;
+    height: 23px;
+    display: block;
+    content: '';
+  }
+
+  .custom-control {
+    font-size: 20px;
+    color: #3A3A3A;
+  }
+}

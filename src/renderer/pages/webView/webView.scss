@@ -1,0 +1,52 @@
+
+.back-btn {
+  width: 69px;
+  height: 33px;
+
+  i {
+    margin-right: 2px;
+  }
+
+  position: absolute;
+  left: 39px;
+  top: 25px;
+  padding: 0;
+  text-align: center;
+
+  &.back-btn-paper {
+    top: 11px;
+  }
+
+  &.back-btn-speech {
+    top: 11px;
+    left: 180px;
+  }
+
+  &.back-btn-other {
+    width: 89px;
+    top: 52px;
+  }
+
+  &.back-home-paper {
+    left: 140px;
+    top: 11px;
+  }
+}
+
+.analyse-loading-info {
+  text-align: center;
+  margin-top: 31px;
+
+  p {
+    &:first-child {
+      font-size: 42px;
+      color: white;
+    }
+
+    &:last-child {
+      font-size: 31.31px;
+      color: white;
+      margin: 0;
+    }
+  }
+}

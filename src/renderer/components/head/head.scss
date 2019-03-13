@@ -1,0 +1,26 @@
+.base-head {
+  height: 9.5vh;
+  background: #ffffff;
+  padding-left: 4vw;
+  padding-right: 10vw;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 23px;
+  color: #55595c;
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 18px;
+  }
+}
+@media all and (min-width: 3800px) {
+  .base-head{
+    height: 19vw;
+  }
+}
